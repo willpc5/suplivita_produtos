@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.area-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.area-left h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.area-right {
+  width: 50%;
+  display: flex;
+}
+
+.area-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 22px;
+}
+
+.menu li {
+  display: flex;
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.menu a:hover {
+  background-color: #000;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.active a {
+  background-color: #000;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#banner {
+  width: 100%;
+  height: 450px;
+  display: flex;
+}
+
+.banner-destaque {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner-img {
+  width: 50%;
+  display: flex;
+  padding: 20px;
+}
+
+.banner-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-title {
+  width: 432px;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.area-produtos {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  justify-content: space-between;
+  background-color: aqua;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 30%;
+  border: 1px solid #000;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 50%;
+}
+
+.description {
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 14px;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.buy-button {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.buy-button:hover {
+  background-color: #000;
+  color: #FFF;
+  cursor: pointer;
+}
